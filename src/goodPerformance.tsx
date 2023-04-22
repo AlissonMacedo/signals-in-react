@@ -1,7 +1,5 @@
 import { useRef } from 'react';
 
-// import { Container } from './styles';
-
 const GoodPerformance = () => {
   const filter = useRef<string | null>(null)
   const divElement = useRef<HTMLDivElement>(null)
